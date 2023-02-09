@@ -11,7 +11,7 @@ def func2(n, memo={}):
         memo[n] = func2(n-1, memo) + func2(n-2, memo)
         return memo[n]
 
-n_values = list(range(37))
+n_values = list(range(35))
 times = []
 times2 = []
 
